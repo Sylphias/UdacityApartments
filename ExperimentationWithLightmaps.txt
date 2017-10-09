@@ -1,0 +1,21 @@
+When Lightmap Resolution is set to a value between 2-5 (I set it to 4):
+Directional Lightmap is only 32kb, When we look at the lights, they seem really blocky. The lights just look like a bright square
+
+When Lightmap Resolution is set to 40 :
+Directional Lightmaps are set to 1024*1024, the size is 2.0MB.
+Now the lights dont look like complete blocks and there is some visible gradient from the light source.
+
+When Lightmap Resolution is set to 80 :
+Directional Lightmaps are set to 2*1024*1024, the size is 4.0MB
+The gradients caused by the area lights and spot lights look more pronounced.
+
+
+I went to quality and set it to soft and hard shadows.
+
+I Turned on Soft Shadows, and for some reason, the Spot Lighting became really dim ( I set the shadow radius to 0 and 40 ) Both resulted in un-noticable difference in the lighting even after baking with 40 and 80 Lightmap Resolution.
+
+I Uncompressed the lightmap, but still there was no change to the spot lighting which I turned on soft shadows.
+
+I removed soft shadows and the scene returned back to normal.
+
+The Final Build is in 80 Lightmap Resolution.
