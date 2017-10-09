@@ -9,6 +9,8 @@ Screenshots Folder Contains Screenshots of the app running.
 
 ExperimentationWithLightmaps contains my findings for playing around with the lightmap settings and observations!
 
+Audio Credits: http://freesound.org/people/utuherz/sounds/400913/
+
 Took about 3-4 hours to complete and experiment around.
 
 ## Thoughts and Notes
